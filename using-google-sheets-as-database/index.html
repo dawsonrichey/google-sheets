@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Using google sheets as database</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="col-md-6" style="margin:20px">
+  <p class="lead" id="loading">Fetching list of employees...</p>
+  <Form id="employeeList" style="display:none">
+<select id="employeeSelect" class="form-control"></select>
+    <input type="submit" class="btn btn-info" value="View details" style="margin-top:10px"/>
+    </Form>
+  <p class="lead" id="employeeDetails" style="display:none"></p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script  src="./env.js"></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
