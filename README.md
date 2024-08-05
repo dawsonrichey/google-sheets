@@ -2,6 +2,8 @@
 
 This project is intended to provide useful resource links, code examples, and tools accessible through Google Sheets.
 
+Rename the env.copy.js to env.js
+Replace the values in the env.js file with your own values.
 
 
 https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/
